@@ -12,8 +12,7 @@
             <div class="pcc_btns">
               <button wire:click="addToCart({{ $product->id }})" class=" border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white py-2 px-4 rounded">Order Yuk</button>
               <a href="{{ route('product.show', $product->id) }}" class="viewbtn border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white py-2 px-4 rounded">View Details</a>
-            </div>            
-            
+            </div>  
           </div>
         </div>
       </div>
